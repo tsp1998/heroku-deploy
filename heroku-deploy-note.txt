@@ -1,0 +1,14 @@
+deploy node app on heroku 
+
+signup for heroku
+install heroku cli
+
+open prj folder in cmd
+1. heroku login (cmd)
+2. enter credentials
+3. git init if not initialized
+4. git add --all
+5. git commit -m "message"
+6. heroku create
+7. git push `url of git created by heroku e.g https://git.heroku.com/evening-fjord-77466.git` master
+8. copy url on which app deployed from cmd and check in browser
